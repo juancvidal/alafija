@@ -5,9 +5,9 @@ import './Header.css';
 const Header = () => {
     return (
         <>
-            <header className="header container-fluid row mx-0 d-flex flex-lg-row px-lg-0">
+            <header className="header px-0 container-fluid row mx-0 d-flex flex-lg-row px-lg-0">
                 <div className="col-12 col-lg-6 mt-5 header__col">
-                    <div className="col-12 mt-5 d-flex flex-column justify-content-center header__col">
+                    <div className="col-12 px-0 mt-5 d-flex flex-column justify-content-center header__col">
                         <h1 className="h1 text-white text-center text-lg-left header__title">Convierte tu pasión <br />en tu mejor inversión</h1>
                         <h2 className="h6 mt-4 text-white text-center text-lg-left header__subtitle">
                             Nosotros encontramos las surebets y te entregamos la información.<br />
