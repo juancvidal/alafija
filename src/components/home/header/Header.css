@@ -28,6 +28,11 @@
 .header__btn--wl{
     width: 62%;
 }
+.header__img{
+    height: 45rem;
+    top: -200px;
+    right: -300px;
+}
 .header__title,
 .header__subtitle{
     font-family: 'Poppins';
@@ -43,8 +48,36 @@
     opacity: .83;
 }
 
-@media (max-width: 576px) {
+@media (min-width: 576px){
+    .header__btn--wl{
+        width: initial;
+    }
+    .header__title{
+        font-size: 3rem;
+    }
+    .header__subtitle{
+        font-size: 1.15rem;
+    }
+}
+
+@media (max-width: 768px) {
     .header{
         height: 86vh;
     }
+    .header__btn--fsl{
+        font-size: 1rem;
+    }
+    
+}
+
+@media (min-width: 992px) {
+   .header__title{
+       font-size: 2.5rem;
+   }    
+   .header__subtitle{
+       font-size: .85rem;
+   }
+   .header{
+       height: 560px;
+   }
 }
