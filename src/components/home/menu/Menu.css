@@ -1,0 +1,8 @@
+
+:root{
+    --menu-bg-color: #060727
+}
+.menu{
+    background-color: var(--menu-bg-color);
+    font-family: 'Rubik';
+}
